@@ -106,6 +106,7 @@ namespace Parsers
                 XmlWriterSettings settings = new XmlWriterSettings();
                 settings.Indent = true;
 
+                DirectoryInfo di = Directory.CreateDirectory(XmlFolder);
                 string path = XmlFolder + FullName + ".xml";
 
                 using (XmlWriter writer = XmlWriter.Create(path, settings))
@@ -196,6 +197,7 @@ namespace Parsers
                 XmlWriterSettings settings = new XmlWriterSettings();
                 settings.Indent = true;
 
+                DirectoryInfo di = Directory.CreateDirectory(XmlFolder);
                 string path = XmlFolder + Name + ".xml";
 
                 using (XmlWriter writer = XmlWriter.Create(path, settings))
