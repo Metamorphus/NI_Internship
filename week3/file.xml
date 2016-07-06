@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<document>
+	<person gender="male">
+		<name>
+			<firstname>Lionel</firstname>
+			<lastname>Messi</lastname>
+		</name>
+		<birthdate>1986/11/11</birthdate>
+	</person>
+	<bla></bla>
+	<club>
+		<name>Arsenal</name>
+		<origin>
+			<city>London</city>
+			<country>England</country>
+		</origin>
+		<foundation>1888</foundation>
+	</club>
+	<person gender="male">
+		<name>
+			<firstname>Cristiano</firstname>
+			<lastname>Ronaldo</lastname>
+		</name>
+		<birthdate>1985/12/12</birthdate>
+	</person>
+	<club>
+		<name>Chelsea</name>
+		<origin>
+			<city>London</city>
+			<country>England</country>
+		</origin>
+		<foundation>1904</foundation>
+	</club>
+</document>
