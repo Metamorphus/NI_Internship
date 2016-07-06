@@ -13,7 +13,7 @@ namespace Parsers
     {
         public static void Main(string[] args)
         {
-            List<Person> list = Parser.ParseXML("file.xml", 
+            List<IXMLConvertible> list = Parser.ParseXML("file.xml", 
                 new MyXMLParser[] { Person.ReadXML, FootballClub.ReadXML });
             foreach (var item in list)
             {
